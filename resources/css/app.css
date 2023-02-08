@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.diamond-icon{
+    content: "";
+    height: 370px;
+    width: 370px;
+    z-index: 0;
+    -webkit-animation: rotate-right 25s linear 0s infinite;
+    animation: rotate-right 25s linear 0s infinite;
+    opacity:1;
+    top: 10px;
+    left:0;
+    position:absolute;
+}
